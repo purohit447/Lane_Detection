@@ -35,7 +35,7 @@ def fun(image):
     image = merge(init_frame,image)
     return image
 
-video = cv2.VideoCapture('test_video.mp4')  # capture the video
+video = cv2.VideoCapture('test_video (1).mp4')  # capture the video
 open = video.isOpened()   # if it is captured successfully
 
 if(open):
